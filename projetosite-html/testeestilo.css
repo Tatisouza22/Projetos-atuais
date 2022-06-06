@@ -1,0 +1,133 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    font-size: 20px;
+}
+
+.caixa {
+    margin: 20px auto;
+    padding: 36px 72px 30px;
+    width: 700px;
+    box-shadow: rgb(0 0 0 / 40%) 0 1px 3px, rgb(0 0 0 / 35%) 0 0 1px;
+    background: #fff;
+    border-radius: 11px;
+}
+
+#titulo{
+  color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+form{
+    width: 100%;
+}
+
+input{
+    border-radius: 4px;
+    border-width: 1px;
+    padding-left: 5px;
+}
+
+.cpf{
+    margin-right: 260px;
+}
+
+#cpf, #senha{
+    width: 45%;
+    margin-right: 50px;
+}
+
+#nascimento, #repsenha{
+    width: 30%;
+}
+
+#nome, #nomemae{
+    width: 100%;
+}
+
+.email{
+    margin-right:300px;
+}
+
+#email{
+    width: 60%;
+    margin-right: 5px;
+}
+
+.sexo{
+    margin-right: 260px;
+}
+
+.fem{
+    margin-right: 128px;
+}
+
+.campo6{
+    margin-left: 310px;
+    margin-top: 10px;
+}
+
+#senioridade{
+    border-radius: 5px;
+    padding-right: 149px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.senha{
+    margin-right: 250px;
+}
+
+p{
+   width: 100%;
+   font-size: 12px;
+   color: #6C757D;
+}
+
+.botoes{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.botao{
+    display: inline-block;
+    width: 15%;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    margin-top: 5px;
+    margin-right: 5px;
+    border: 1px solid;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+.botao-fechar {
+    color: #6c757d;
+    background-color: transparent;
+    background-image: none;
+    border-color: #6c757d;
+}
+
+.botao-fechar:hover{
+    background-color: #7c8083;
+    color: white;
+}
+
+.botao-salvar{
+    color: #0a0c0ecc;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}

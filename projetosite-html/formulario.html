@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="testeestilo.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>faça seu cadastro</title>
+    </head>
+<body>
+    <div class="caixa">
+        <form method="POST" action="formulario.php">
+            <div>
+                <h5 id="titulo"> <b>Faça seu cadastro</b></h5><br>
+            </div> 
+            <fieldset class="grupo">
+                <div class="campo1">
+                    <label class="cpf" for="cpf">CPF *</label>
+                    <label for="nascimento">Data de Nascimento *</label>
+                    <br>
+                    <input type="number" name="cpf" id="cpf" placeholder="Somente números" required>
+                    <input type="date" name="nascimento" id="nascimento" placeholder="Somente números" required>
+                </div>
+            </fieldset><br>
+         
+           <fieldset class="grupo">
+               <div class="campo2">
+                   <label for="nome">Nome *</label><br>
+                   <input type="text" name="nome" id="nome" required>
+               </div>
+               <br>
+           </fieldset><br>
+         
+           <fieldset class="grupo">
+            <div class="campo4">
+                
+                <label class="email" for="email">E-mail *</label>
+                <label class="telefone" for="telefone"> Telefone *</label>
+                <br>
+                <input type="email" name="email" id="email" required>
+                <input type="number" name="telefone" id="telefone" required> 
+                
+            </div>
+        </fieldset><br>
+
+           
+
+           </fieldset><br>
+         
+           <fieldset class="grupo">
+               <div class="campo7">
+                   <label class="senha" for="senha">Senha:</label>
+                   <label class="repsenha" for="repsenha">Repetir Senha:</label><br>
+         
+                   <input type="password" name="senha" id="senha" placeholder="Informe a senha" required>
+                   <input type="password" name="repsenha" id="repsenha" placeholder="Informe a senha" required>
+               </div>
+           </fieldset><br>
+         
+           <p>A senha deve conter: Mínimo 6 caracteres, uma letra maiúscula, um número. Não pode ter sequência de letras ou números: "abc" ou "123"</p>
+         
+           <fieldset class="grupo">
+               <div>
+                   <input type="checkbox" id="termos" name="termos" value="termosecond">
+                   <label>Li e aceito os <a href="">TERMOS E CONDIÇÕES DE USO</a></label>
+               </div>
+           </fieldset><br>
+           
+           <div class="botoes">
+               <button type="button" class="botao botao-fechar">Fechar</button>
+               <button type="submit" class="botao botao-salvar">Salvar</button>
+           </div>
+         </form> 
+    </div>
+
+</div>
+</body>
+<script src="bootstrap.min.js"></script>
+</html>
